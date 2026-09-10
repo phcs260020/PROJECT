@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GateMate - India's Premier Learning Platform for GATE, BPSC TRE, UGC NET, AI, GenAI & Tech Skills. Expert live classes, test series & career-focused courses." />
+  <title>GateMate | Transform Your Future with Expert Learning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader">
+      <div class="loader-ring"></div>
+      <span>GateMate</span>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="header" id="header">
+    <nav class="navbar container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon"><i class="fas fa-graduation-cap"></i></span>
+        <span class="logo-text">Gate<span>Mate</span></span>
+      </a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#courses" class="nav-link">Courses</a></li>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#teachers" class="nav-link">Teachers</a></li>
+        <li><a href="#testimonials" class="nav-link">Success</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-cta"><a href="#courses" class="btn btn-primary btn-sm">Explore Courses</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-shape shape-1"></div>
+      <div class="hero-shape shape-2"></div>
+      <div class="hero-shape shape-3"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <div class="badge animate-fade-up">
+          <i class="fas fa-bolt"></i> India's Premier Learning Ecosystem
+        </div>
+        <h1 class="animate-fade-up delay-1">
+          Master <span class="gradient-text">GATE, BPSC TRE</span> &amp; Future Tech Skills
+        </h1>
+        <p class="animate-fade-up delay-2">
+          Expert-led live classes, AI-powered learning, 50+ mock tests & personalized mentorship. 
+          Join 15,000+ aspirants transforming their careers with GateMate.
+        </p>
+        <div class="hero-btns animate-fade-up delay-3">
+          <a href="#courses" class="btn btn-primary btn-lg">
+            <i class="fas fa-play-circle"></i> Start Learning Free
+          </a>
+          <a href="#features" class="btn btn-outline btn-lg">
+            <i class="fas fa-info-circle"></i> Why GateMate
+          </a>
+        </div>
+        <div class="hero-stats animate-fade-up delay-4">
+          <div class="stat">
+            <strong>15K+</strong>
+            <span>Students</span>
+          </div>
+          <div class="stat">
+            <strong>40+</strong>
+            <span>Expert Teachers</span>
+          </div>
+          <div class="stat">
+            <strong>95%</strong>
+            <span>Satisfaction</span>
+          </div>
+          <div class="stat">
+            <strong>1000+</strong>
+            <span>Selections</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual animate-fade-up delay-2">
+        <div class="hero-card">
+          <div class="hero-card-header">
+            <span class="live-dot"></span> Live Now
+          </div>
+          <div class="hero-card-body">
+            <i class="fas fa-laptop-code"></i>
+            <h3>AI & Generative AI Masterclass</h3>
+            <p>with Shubham Kumar</p>
+            <div class="progress-bar">
+              <div class="progress" style="width: 68%"></div>
+            </div>
+            <span class="viewers"><i class="fas fa-eye"></i> 1,248 watching</span>
+          </div>
+        </div>
+        <div class="floating-card card-1">
+          <i class="fas fa-trophy"></i>
+          <div>
+            <strong>BPSC TRE 4.0</strong>
+            <span>1000+ Selections</span>
+          </div>
+        </div>
+        <div class="floating-card card-2">
+          <i class="fas fa-robot"></i>
+          <div>
+            <strong>Gen AI & LLM</strong>
+            <span>Industry Ready</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <a href="#courses"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section class="section courses" id="courses">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Programs</span>
+        <h2>Choose Your Path to <span class="gradient-text">Success</span></h2>
+        <p>From competitive exams to cutting-edge tech skills — structured learning for every aspirant.</p>
+      </div>
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">All Courses</button>
+        <button class="filter-btn" data-filter="exam">Competitive Exams</button>
+        <button class="filter-btn" data-filter="tech">Tech & AI</button>
+        <button class="filter-btn" data-filter="free">Free Resources</button>
+      </div>
+      <div class="courses-grid">
+        <!-- Course 1 -->
+        <article class="course-card" data-category="exam">
+          <div class="course-img exam-bg">
+            <span class="course-badge paid">Paid</span>
+            <i class="fas fa-book-open"></i>
+          </div>
+          <div class="course-body">
+            <div class="course-meta">
+              <span><i class="fas fa-clock"></i> 120+ Hours</span>
+              <span><i class="fas fa-users"></i> 3.2K Students</span>
+            </div>
+            <h3>BPSC TRE 4.0 Complete Course</h3>
+            <p>Computer Science for Class 6-12. Syllabus-aligned notes, teaching methodology & 50+ mock tests.</p>
+            <div class="course-footer">
+              <div class="price">
+                <span class="current">₹4,999</span>
+                <span class="old">₹9,999</span>
+              </div>
+              <a href="#contact" class="btn btn-sm btn-primary">Enroll Now</a>
+            </div>
+          </div>
+        </article>
+        <!-- Course 2 -->
+        <article class="course-card" data-category="tech">
+          <div class="course-img tech-bg">
+            <span class="course-badge hot">Hot</span>
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="course-body">
+            <div class="course-meta">
+              <span><i class="fas fa-clock"></i> 80+ Hours</span>
+              <span><i class="fas fa-users"></i> 2.8K Students</span>
+            </div>
+            <h3>Generative AI & LLM Mastery</h3>
+            <p>Build real-world AI apps with LLMs, prompt engineering, fine-tuning & deployment strategies.</p>
+            <div class="course-footer">
+              <div class="price">
+                <span class="current">₹6,499</span>
+                <span class="old">₹12,999</span>
+              </div>
+              <a href="#contact" class="btn btn-sm btn-primary">Enroll Now</a>
+            </div>
+          </div>
+        </article>
+        <!-- Course 3 -->
+        <article class="course-card" data-category="tech">
+          <div class="course-img ai-bg">
+            <span class="course-badge paid">Paid</span>
+            <i class="fas fa-brain"></i>
+          </div>
+          <div class="course-body">
+            <div class="course-meta">
+              <span><i class="fas fa-clock"></i> 100+ Hours</span>
+              <span><i class="fas fa-users"></i> 4.1K Students</span>
+            </div>
+            <h3>Complete AI & Machine Learning</h3>
+            <p>From fundamentals to advanced projects. Python, TensorFlow, real datasets & portfolio building.</p>
+            <div class="course-footer">
+              <div class="price">
+                <span class="current">₹5,999</span>
+                <span class="old">₹11,999</span>
+              </div>
+              <a href="#contact" class="btn btn-sm btn-primary">Enroll Now</a>
+            </div>
+          </div>
+        </article>
+        <!-- Course 4 -->
+        <article class="course-card" data-category="exam">
+          <div class="course-img gate-bg">
+            <span class="course-badge paid">Paid</span>
+            <i class="fas fa-university"></i>
+          </div>
+          <div class="course-body">
+            <div class="course-meta">
+              <span><i class="fas fa-clock"></i> 150+ Hours</span>
+              <span><i class="fas fa-users"></i> 5.5K Students</span>
+            </div>
+            <h3>GATE CS & IT Complete</h3>
+            <p>Full syllabus coverage, previous year papers, rank predictors & interview preparation guidance.</p>
+            <div class="course-footer">
+              <div class="price">
+                <span class="current">₹7,999</span>
+                <span class="old">₹14,999</span>
+              </div>
+              <a href="#contact" class="btn btn-sm btn-primary">Enroll Now</a>
+            </div>
+          </div>
+        </article>
+        <!-- Course 5 -->
+        <article class="course-card" data-category="tech">
+          <div class="course-img mern-bg">
+            <span class="course-badge paid">Paid</span>
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="course-body">
+            <div class="course-meta">
+              <span><i class="fas fa-clock"></i> 90+ Hours</span>
+              <span><i class="fas fa-users"></i> 3.7K Students</span>
+            </div>
+            <h3>MERN Stack Development</h3>
+            <p>MongoDB, Express, React & Node.js. Build production-ready full-stack applications from scratch.</p>
+            <div class="course-footer">
+              <div class="price">
+                <span class="current">₹5,499</span>
+                <span class="old">₹10,999</span>
+              </div>
+              <a href="#contact" class="btn btn-sm btn-primary">Enroll Now</a>
+            </div>
+          </div>
+        </article>
+        <!-- Course 6 -->
+        <article class="course-card" data-category="free">
+          <div class="course-img free-bg">
+            <span class="course-badge free">Free</span>
+            <i class="fas fa-gift"></i>
+          </div>
+          <div class="course-body">
+            <div class="course-meta">
+              <span><i class="fas fa-clock"></i> 25+ Hours</span>
+              <span><i class="fas fa-users"></i> 12K Students</span>
+            </div>
+            <h3>Python Programming Fundamentals</h3>
+            <p>Free beginner to intermediate Python course with hands-on exercises and mini projects.</p>
+            <div class="course-footer">
+              <div class="price">
+                <span class="current free-price">Free</span>
+              </div>
+              <a href="#contact" class="btn btn-sm btn-outline">Start Free</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Why GateMate</span>
+        <h2>Everything You Need to <span class="gradient-text">Excel</span></h2>
+        <p>A complete learning ecosystem designed for serious aspirants and future tech leaders.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon icon-1"><i class="fas fa-video"></i></div>
+          <h3>Live Interactive Classes</h3>
+          <p>Real-time doubt solving with expert faculty. Never miss a concept with recorded backups.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon icon-2"><i class="fas fa-chart-line"></i></div>
+          <h3>AI Progress Tracker</h3>
+          <p>Personalized analytics, weak area detection and adaptive study plans powered by AI.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon icon-3"><i class="fas fa-file-alt"></i></div>
+          <h3>50+ Mock Tests</h3>
+          <p>Exam-pattern tests with detailed solutions, rank prediction and performance reports.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon icon-4"><i class="fas fa-comments"></i></div>
+          <h3>24/7 Doubt Support</h3>
+          <p>Dedicated doubt counters and community forums for instant clarification anytime.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon icon-5"><i class="fas fa-laptop-code"></i></div>
+          <h3>Hands-on Labs</h3>
+          <p>Interactive coding environments and real-world projects for tech skill mastery.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon icon-6"><i class="fas fa-briefcase"></i></div>
+          <h3>Career Guidance</h3>
+          <p>Placement assistance, resume building and interview prep from industry mentors.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teachers Section -->
+  <section class="section teachers" id="teachers">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Expert Faculty</span>
+        <h2>Learn from the <span class="gradient-text">Best Minds</span></h2>
+        <p>40+ professional teachers with deep expertise in competitive exams and emerging technologies.</p>
+      </div>
+      <div class="teachers-grid">
+        <div class="teacher-card">
+          <div class="teacher-avatar avatar-1">
+            <i class="fas fa-user-graduate"></i>
+          </div>
+          <h3>Shubham Kumar</h3>
+          <span class="subject">Artificial Intelligence</span>
+          <p>1+ Years Experience · AI Systems & Intelligent Solutions</p>
+          <div class="teacher-social">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="teacher-card">
+          <div class="teacher-avatar avatar-2">
+            <i class="fas fa-user-graduate"></i>
+          </div>
+          <h3>Saurav Kumar</h3>
+          <span class="subject">MERN Stack</span>
+          <p>1+ Years Experience · Full-Stack Development Expert</p>
+          <div class="teacher-social">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="teacher-card">
+          <div class="teacher-avatar avatar-3">
+            <i class="fas fa-user-graduate"></i>
+          </div>
+          <h3>Priyanjan Raj</h3>
+          <span class="subject">Large Language Models</span>
+          <p>1+ Years Experience · LLM Architecture & Fine-tuning</p>
+          <div class="teacher-social">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="teacher-card">
+          <div class="teacher-avatar avatar-4">
+            <i class="fas fa-user-graduate"></i>
+          </div>
+          <h3>Suchit Kumar</h3>
+          <span class="subject">Generative AI</span>
+          <p>1+ Years Experience · GenAI Applications & Tools</p>
+          <div class="teacher-social">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="teacher-card">
+          <div class="teacher-avatar avatar-5">
+            <i class="fas fa-user-graduate"></i>
+          </div>
+          <h3>Muskan Singh</h3>
+          <span class="subject">AI & Machine Learning</span>
+          <p>1+ Years Experience · ML Models & Data Science</p>
+          <div class="teacher-social">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="teacher-card">
+          <div class="teacher-avatar avatar-6">
+            <i class="fas fa-user-graduate"></i>
+          </div>
+          <h3>Abhishek Raushan</h3>
+          <span class="subject">LLM Specialist</span>
+          <p>1+ Years Experience · Advanced Language Models</p>
+          <div class="teacher-social">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats / CTA Banner -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to Transform Your Career?</h2>
+        <p>Join thousands of successful aspirants. Start with free resources or enroll in a premium course today.</p>
+        <div class="cta-btns">
+          <a href="#courses" class="btn btn-light btn-lg">Browse Courses</a>
+          <a href="https://play.google.com/store/apps/details?id=com.gatemate.learning.app" target="_blank" rel="noopener" class="btn btn-outline-light btn-lg">
+            <i class="fab fa-google-play"></i> Download App
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Success Stories</span>
+        <h2>What Our <span class="gradient-text">Students Say</span></h2>
+        <p>Real results from real aspirants who trusted GateMate with their preparation.</p>
+      </div>
+      <div class="testimonials-slider">
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"GateMate's BPSC TRE course was a game-changer. The teaching methodology and mock tests helped me secure my selection. Highly recommended!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">R</div>
+            <div>
+              <strong>Rahul Verma</strong>
+              <span>BPSC TRE Selected</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"The GenAI & LLM course is pure gold. Practical projects and industry insights made me job-ready in months. Best investment I made."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">P</div>
+            <div>
+              <strong>Priya Sharma</strong>
+              <span>AI Engineer</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"Live classes are interactive and teachers are extremely supportive. The AI progress tracker keeps me on track every single day."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <strong>Amit Kumar</strong>
+              <span>GATE Aspirant</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Footer CTA -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <span class="section-tag">Get in Touch</span>
+          <h2>Have Questions? <span class="gradient-text">We're Here</span></h2>
+          <p>Reach out for course guidance, enrollment help or any query. Our team responds within 24 hours.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <strong>Phone</strong>
+                <a href="tel:+919973549344">+91 99735 49344</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:pro@gatemate.co.in">pro@gatemate.co.in</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong>Location</strong>
+                <span>East Champaran, Bihar, India</span>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <input type="tel" name="phone" placeholder="Phone Number" />
+          </div>
+          <div class="form-group">
+            <select name="interest">
+              <option value="">Interested In</option>
+              <option value="bpsc">BPSC TRE 4.0</option>
+              <option value="gate">GATE CS/IT</option>
+              <option value="ai">AI & Machine Learning</option>
+              <option value="genai">Generative AI & LLM</option>
+              <option value="mern">MERN Stack</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-block">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-icon"><i class="fas fa-graduation-cap"></i></span>
+            <span class="logo-text">Gate<span>Mate</span></span>
+          </a>
+          <p>India's premier learning ecosystem for competitive exams and future-ready tech skills. Empowering aspirants since 2025.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#teachers">Teachers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="#courses">BPSC TRE 4.0</a></li>
+            <li><a href="#courses">GATE Preparation</a></li>
+            <li><a href="#courses">AI & GenAI</a></li>
+            <li><a href="#courses">MERN Stack</a></li>
+            <li><a href="#courses">Free Courses</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.gatemate.learning.app" target="_blank" rel="noopener">Download App</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025–2026 GateMate Learning Private Limited. All rights reserved.</p>
+        <p class="quote">“Believe in yourself, keep learning, and success will follow.”</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
